@@ -1,0 +1,192 @@
+  header,
+  body {
+    font-family: 'Poppins';
+  }
+  body {
+    background-color: #faf8f8a4;
+    color: #0c263f;
+  }
+  section {
+    padding-top: 5rem !important;
+  }
+
+  .jumbotron {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(22, 22, 22, 0.7)), url("https://images.unsplash.com/photo-1529963183134-61a90db47eaf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .text-light {
+    color: #fff !important;
+  }
+  .jumbotron .fab {
+    color: white;
+    margin: auto 5px;
+    padding: 10px;
+    text-align: center;
+    width: 40px;
+    border-radius: 50%;
+  }
+
+.about .content {
+    padding: 30px 0;
+  }
+  .about .content h3 {
+    font-weight: 500;
+    font-size: 34px;
+    color: #0c263f;
+  }
+  .about .content .count-box {
+    padding: 20px 0;
+    width: 100%;
+  }
+  .about .content .count-box i {
+    display: block;
+    font-size: 36px;
+    color: #3c6387;
+    float: left;
+  }
+  .about .content .count-box span {
+    font-size: 36px;
+    line-height: 20px;
+    display: block;
+    font-weight: 700;
+    color: #2c4964;
+    margin-left: 50px;
+  }
+  .about .content .count-box p {
+    padding: 15px 0 0 0;
+    margin: 0 0 0 50px;
+    font-size: 14px;
+    color: #23405a;
+  }
+  .about .content .count-box a {
+    font-weight: 600;
+    display: block;
+    margin-top: 20px;
+    color: #437099;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+  }
+  .about .content .count-box a:hover {
+    color: #6b96be;
+  }
+
+  
+.certificate .icon-box {
+    padding: 20px 15px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.2);
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    text-align: center;
+    z-index: 1;
+  }
+  .certificate .icon-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    transition: ease-in-out 0.3s;
+    z-index: -1;
+  }
+  .certificate .icon-box:hover::before {
+    background: #3c6387;
+    height: 100%;
+  }
+  .certificate .icon {
+    margin: 0 auto 30px auto;
+    padding-top: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #3c6387;
+    transition: all 0.3s ease-in-out;
+  }
+  .certificate .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  .certificate .title a {
+    color: #111;
+  }
+  .certificate .description {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 0;
+  }
+  .certificate .icon-box:hover .icon {
+    background: #fff;
+  }
+  .certificate .icon-box:hover .icon i {
+    color: #3c6387;
+  }
+
+  .contact .contact-about h3 {
+  font-size: 36px;
+  margin: 0 0 10px 0;
+  line-height: 1;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #3c6387;
+  }
+  .contact .contact-about p {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Playfair Display", serif;
+  color: #3c6387;
+  }
+  .contact .social-links {
+  padding-bottom: 20px;
+  }
+  .contact .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #fff;
+  color: #3c6387;
+  line-height: 0;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  border: 1px solid #3c6387;
+  }
+  .contact .social-links a:hover {
+  background: #3c6387;
+  color: #fff;
+  }
+  .contact .info {
+  color: #5a656e;
+  }
+  .contact .info i {
+  font-size: 32px;
+  color: #3c6387;
+  line-height: 0;
+  margin-right: 15px;
+  }
+  .contact .info p {
+  font-size: 14px;
+  margin: 0;
+  }
+  .contact .php-email-form button[type=submit] {
+  background: #3c6387;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  }
+  .contact .php-email-form button[type=submit]:hover {
+  background: #3c6387;
+  }
